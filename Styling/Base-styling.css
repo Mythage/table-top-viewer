@@ -9,6 +9,7 @@
     box-sizing: border-box;
     margin:0;
     padding: 0;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
 }
 
 header{
@@ -24,7 +25,6 @@ main{
     color: #434A42;
     padding: 1em;
     display: flex;
-    flex-direction:;
     justify-content: space-between;
 }
 .header-links ul{
