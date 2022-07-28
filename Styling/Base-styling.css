@@ -1,5 +1,36 @@
+/*color to us*/
+/*color Wheat #E1CA96*/
+/*color Sage #ACA885*/
+/*color middle gray #918B76*/
+/*color nikkel #626C66*/
+/*color black olive #434A42*/
+
 *{
     box-sizing: border-box;
     margin:0;
     padding: 0;
+}
+
+header{
+    background-color: #E1CA96;
+}
+main{
+    background-color: #ACA885;
+    border-style: solid;
+    border-color: #918B76;
+}
+
+.header-links{
+    color: #434A42;
+    padding: 1em;
+    display: flex;
+    flex-direction:;
+    justify-content: space-between;
+}
+.header-links ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 200px;
 }
