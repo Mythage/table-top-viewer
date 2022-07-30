@@ -27,11 +27,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 //create pawn
                 for(let i=1;i<6;i++) {
                     let pawn=document.createElement("div");
-                    pawn.classList.add("pawn","player" + i);
+                    pawn.classList.add("pawn","player"   + i);
                     pawn.innerText = i;
                     dragElement(pawn);
                     elem.appendChild(pawn);
                     pawn.style.top = (50 * i) + 'px';
+
                 }
 
 
