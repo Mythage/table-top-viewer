@@ -23,6 +23,13 @@ header{
 }
 main{
     background-color: #ACA885;
+    max-width: 1400px;
+
+}
+
+.layout{
+    display: flex;
+    justify-content: space-around;
 }
 
 .header-links{
