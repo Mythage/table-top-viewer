@@ -58,6 +58,48 @@ ul{
     gap: 40px;
 }
 img{
-    height: 500px;
-    padding: 50px;
+    height: 300px;
+}
+.pawn  {
+    height: 100px;
+    width: 100px;
+    top: 40px;
+    left: 40px;
+    position: absolute;
+    display: none;
+}
+
+.phandalin {
+    background-image: url('../assets/maps/phandalin.jpg');
+    background-size:100%;
+}
+.redbrand_hideout{
+    background-image: url("../assets/maps/redbrand_hideout.jpg");
+    background-size:100%;
+}
+.tundertree{
+    background-image: url("../assets/maps/thundertree.jpg");
+    background-size:100% ;
+}
+.cragmaw-castle{
+    background-image: url("../assets/maps/cragmaw_castle.jpg");
+    background-size:100% ;
+}
+
+.map {
+    height: 200px;
+    width: 300px;
+}
+
+.player1 {
+    background-color: red;
+}
+.player2 {
+    background-color: yellow;
+}
+.player3 {
+    background-color: blue;
+}
+.player4 {
+    background-color: green;
 }

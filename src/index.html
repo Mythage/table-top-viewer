@@ -8,10 +8,11 @@
     <meta charset="UTF-8">
     <title>DnD-MapTool</title>
     <script src="../js/fullscreen.js"></script>
+    <script src="../js/drag.js"></script>
 </head>
 <header>
     <nav class="header-links">
-        <h1>BlackWhisky</h1>
+        <h1>Dod Maps</h1>
         <ul>
             <li><A>Tool1</A></li>
             <li><A>Tool2</A></li>
@@ -21,13 +22,46 @@
 </header>
 <main class="layout">
     <ul>
-        <li><img class="map" src="../assets/maps/phandalin.jpg" alt="" /></li>
-        <li><img class="map" src="../assets/maps/redbrand_hideout.jpg" alt="" /></li>
-        <li><img class="map" src="../assets/maps/thundertree.jpg" alt="" /></li>
-        <li><img class="map" src="../assets/maps/cragmaw_castle.jpg" alt="" /></li>
+        <li>
+            <h3>Phandalin</h3>
+            <div class="map phandalin">
+                <div draggable="true" class="pawn player1"></div>
+                <div draggable="true" class="pawn player2"></div>
+                <div draggable="true" class="pawn player3"></div>
+                <div draggable="true" class="pawn player4"></div>
+            </div>
+        </li>
+        <li>
+            <h3>Redbrand Hideout</h3>
+            <div class="map redbrand_hideout">
+                <div draggable="true" class="pawn player1"></div>
+                <div draggable="true" class="pawn player2"></div>
+                <div draggable="true" class="pawn player3"></div>
+                <div draggable="true" class="pawn player4"></div>
+            </div>
+        </li>
+        <li>
+            <h3>Thundertree</h3>
+            <div class="map tundertree">
+                <div draggable="true" class="pawn player1"></div>
+                <div draggable="true" class="pawn player2"></div>
+                <div draggable="true" class="pawn player3"></div>
+                <div draggable="true" class="pawn player4"></div>
+            </div>
+        </li>
+        <li>
+            <h3>Cragmaw Castle</h3>
+            <div class="map cragmaw-castle">
+                <div draggable="true" class="pawn player1"></div>
+                <div draggable="true" class="pawn player2"></div>
+                <div draggable="true" class="pawn player3"></div>
+                <div draggable="true" class="pawn player4"></div>
+            </div>
+        </li>
 
     </ul>
 </main>
+
 <footer>
 
 </footer>
