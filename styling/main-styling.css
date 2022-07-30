@@ -23,13 +23,16 @@ header{
 }
 main{
     background-color: #ACA885;
-    max-width: 1400px;
+
+
+
 
 }
 
 .layout{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-links{
@@ -46,3 +49,15 @@ main{
     flex-basis: 300px;
 }
 
+ul{
+    list-style: none;
+}
+
+.layout ul{
+    display: flex;
+    gap: 40px;
+}
+img{
+    height: 500px;
+    padding: 50px;
+}
